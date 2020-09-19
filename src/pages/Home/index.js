@@ -1,11 +1,15 @@
 import React from 'react';
-import { Hero } from '../../components';
-import dataHero from '../../constans/dataHero';
+import { Hero, HighLightsPanel } from '../../components';
+import HighgLights from '../../components/modules/HighLights';
+import { dataHero, dataHighlight, dataPanel } from '../../constans';
 
 const Home = () => {
   return (
     <>
       <Hero {...dataHero} />
+      <HighLightsPanel {...dataPanel}>
+        <HighgLights dataCard={dataHighlight} />
+      </HighLightsPanel>
     </>
   );
 };

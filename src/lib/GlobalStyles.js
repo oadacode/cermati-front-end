@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
 		padding: 0;
     margin: 0;
     box-sizing: border-box;
-    line-height: 1.5em;
+    line-height: 1.3em;
     transition: background 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 	}
 

@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const ContainerHero = styled.div`
   display: flex;
   width: 100%;
+  height: 100vh;
   max-width: 1300px;
-  padding: 20px;
+  padding: 30px;
   flex-direction: column;
   justify-content: center;
   background-image: url(${(props) => props.background});
