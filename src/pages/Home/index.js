@@ -1,7 +1,8 @@
 import React from 'react';
 import { Hero, HighLightsPanel } from '../../components';
 import HighgLights from '../../components/modules/HighLights';
-import { dataHero, dataHighlight, dataPanel } from '../../constans';
+import Footer from '../../components/templates/Footer';
+import { dataAuth, dataHero, dataHighlight, dataPanel } from '../../constans';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HighLightsPanel {...dataPanel}>
         <HighgLights dataCard={dataHighlight} />
       </HighLightsPanel>
+      <Footer {...dataAuth} />
     </>
   );
 };
