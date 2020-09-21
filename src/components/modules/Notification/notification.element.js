@@ -25,7 +25,7 @@ export const Content = styled.div`
 `;
 
 export const Paragraph = styled.p`
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   max-width: 550px;
 `;
 

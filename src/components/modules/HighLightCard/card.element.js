@@ -21,7 +21,7 @@ export const IconWrapper = styled.div`
 
 export const Title = styled.h3`
   height: 42px;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   color: ${(props) => props.theme.palette.darkGrey};
 `;
 

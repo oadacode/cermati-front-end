@@ -22,13 +22,13 @@ export const IconClose = styled.div`
 `;
 
 export const HeadingNews = styled.h2`
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   color: var(--color-white);
   margin-bottom: 1rem;
 `;
 
 export const Paragraph = styled.p`
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--color-white);
 `;
 

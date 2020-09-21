@@ -19,7 +19,7 @@ const GlobalStyles = createGlobalStyle`
 		scroll-behavior: smooth;
 		background-color: var(--color-grey);
 		font-size: 65%;
-		font-family: Roboto, 'Open Sans';
+		font-family: Raleway, 'Sans-serif';
 	}
 
 	a {

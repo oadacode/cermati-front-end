@@ -43,7 +43,7 @@ export const SubHeading = styled.h2`
 `;
 
 export const Paragraph = styled.p`
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   line-height: 29px;
   color: ${(props) => props.theme.palette.colorWhite};
   margin: 0 0 2.8rem;

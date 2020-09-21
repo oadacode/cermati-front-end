@@ -15,6 +15,7 @@ class Newsletter extends React.Component {
     super(props);
 
     this.state = {
+      windowHeight: window.innerHeight,
       height: 0,
       isCloseNews: false,
       isShowNews: false,
@@ -70,7 +71,7 @@ class Newsletter extends React.Component {
         if (!ticking) {
           window.requestAnimationFrame(
             function () {
-              this.popUpNewsHandler(last_position);
+              this.panelHandler(last_position);
 
               ticking = false;
             }.bind(this)
@@ -81,7 +82,7 @@ class Newsletter extends React.Component {
     }
   };
 
-  popUpNewsHandler = () => {
+  panelHandler = () => {
     const windowHeight = document.documentElement.clientHeight;
     const scrollHeight = window.pageYOffset;
     const scrollProgress = scrollHeight / windowHeight;

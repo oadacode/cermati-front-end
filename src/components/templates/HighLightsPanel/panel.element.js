@@ -21,6 +21,6 @@ export const Heading = styled.h4`
   line-height: 1.6;
 `;
 export const DescriptionsPanel = styled.p`
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   text-align: center;
 `;
